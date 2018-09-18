@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="opsCenter">
+		<class>com.xchanging.ops.model.Account</class>
+		<class>com.xchanging.ops.model.HealthCheck</class>
+		<class>com.xchanging.ops.model.HealthCheckService</class>
+		<class>com.xchanging.ops.model.HealthCheckServicePK</class>
+		<class>com.xchanging.ops.model.ServiceComponent</class>
+		<class>com.xchanging.ops.model.ServiceComponentHealth</class>
+		<class>com.xchanging.ops.model.ServiceModel</class>
+		<class>com.xchanging.ops.model.ServiceSla</class>
+		<class>com.xchanging.ops.model.ServiceSlaTracking</class>
+		<class>com.xchanging.ops.model.SlaTransaction</class>
+		<class>com.xchanging.ops.model.User</class>
+		<class>com.xchanging.ops.model.UserProfile</class>
+		<class>com.xchanging.ops.model.HealthCheckTransaction</class>
+		<class>com.xchanging.ops.model.EmergencyChange</class>
+		<class>com.xchanging.ops.model.EmergencyChangeComponent</class>
+		<class>com.xchanging.ops.model.Config</class>
+		<class>com.xchanging.ops.model.PublicHoliday</class>
+		<class>com.xchanging.ops.model.RefData</class>
+		<class>com.xchanging.ops.model.Environment</class>
+		<class>com.xchanging.ops.model.KnowledgeBase</class>
+		<class>com.xchanging.ops.model.OpsDocument</class>
+		<class>com.xchanging.ops.model.ServicePoint</class>
+		<class>com.xchanging.ops.model.KbSuggest</class>
+		<class>com.xchanging.ops.model.Release</class>
+		<class>com.xchanging.ops.model.TranRelease</class>
+		<class>com.xchanging.ops.model.RelProject</class>
+		<class>com.xchanging.ops.model.RelComp</class>
+		<class>com.xchanging.ops.model.RelDoc</class>
+		<class>com.xchanging.ops.model.RelProjComp</class>
+	</persistence-unit>
+</persistence>

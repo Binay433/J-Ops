@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.xchanging</groupId>
  <artifactId>J-opsCenter</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.4-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>opsCenter</name>
   	<properties>

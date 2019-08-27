@@ -2,10 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.xchanging</groupId>
  <artifactId>opsCenter</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>opsCenter</name>
-  
   	<properties>
 		<springframework.version>4.1.7.RELEASE</springframework.version>
 		<springsecurity.version>4.0.1.RELEASE</springsecurity.version>
